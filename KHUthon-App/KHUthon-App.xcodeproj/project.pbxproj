@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3974377A2AFECD07001C4D92 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397437792AFECD07001C4D92 /* UIStackView+Extension.swift */; };
+		3974377C2AFED76F001C4D92 /* SendHTMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974377B2AFED76F001C4D92 /* SendHTMLViewController.swift */; };
+		3974377E2AFEEB3F001C4D92 /* SampleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974377D2AFEEB3F001C4D92 /* SampleError.swift */; };
+		39849A462AFE698F00016A94 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39849A452AFE698F00016A94 /* UIView+Extension.swift */; };
+		39849A482AFE6D7200016A94 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39849A472AFE6D7200016A94 /* PopUpViewController.swift */; };
+		39849A4C2AFE821000016A94 /* LinkCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39849A4B2AFE821000016A94 /* LinkCardView.swift */; };
+		39849A4E2AFEA7C200016A94 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39849A4D2AFEA7C200016A94 /* NextViewController.swift */; };
+		39849A502AFEB6AC00016A94 /* HTMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39849A4F2AFEB6AC00016A94 /* HTMLViewController.swift */; };
+		39849A542AFEBB4C00016A94 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 39849A532AFEBB4C00016A94 /* test.html */; };
+		39A1EC9D2AFDF01D00531D71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A1EC9C2AFDF01D00531D71 /* AppDelegate.swift */; };
+		39A1EC9F2AFDF01D00531D71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A1EC9E2AFDF01D00531D71 /* SceneDelegate.swift */; };
+		39A1ECA12AFDF01D00531D71 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A1ECA02AFDF01D00531D71 /* MainViewController.swift */; };
+		39A1ECA62AFDF01E00531D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A1ECA52AFDF01E00531D71 /* Assets.xcassets */; };
+		39A1ECA92AFDF01E00531D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A1ECA72AFDF01E00531D71 /* LaunchScreen.storyboard */; };
+		39A1ECB22AFDF36B00531D71 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 39A1ECB12AFDF36B00531D71 /* Then */; };
+		39A1ECB52AFDF37C00531D71 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 39A1ECB42AFDF37C00531D71 /* SnapKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		397437792AFECD07001C4D92 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+		3974377B2AFED76F001C4D92 /* SendHTMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHTMLViewController.swift; sourceTree = "<group>"; };
+		3974377D2AFEEB3F001C4D92 /* SampleError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleError.swift; sourceTree = "<group>"; };
+		39849A452AFE698F00016A94 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		39849A472AFE6D7200016A94 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		39849A4B2AFE821000016A94 /* LinkCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkCardView.swift; sourceTree = "<group>"; };
+		39849A4D2AFEA7C200016A94 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		39849A4F2AFEB6AC00016A94 /* HTMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLViewController.swift; sourceTree = "<group>"; };
+		39849A532AFEBB4C00016A94 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = test.html; path = ../../../Downloads/test.html; sourceTree = "<group>"; };
+		39A1EC992AFDF01D00531D71 /* KHUthon-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KHUthon-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A1EC9C2AFDF01D00531D71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39A1EC9E2AFDF01D00531D71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		39A1ECA02AFDF01D00531D71 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		39A1ECA52AFDF01E00531D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39A1ECA82AFDF01E00531D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39A1ECAA2AFDF01E00531D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39A1EC962AFDF01D00531D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A1ECB22AFDF36B00531D71 /* Then in Frameworks */,
+				39A1ECB52AFDF37C00531D71 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39A1EC902AFDF01D00531D71 = {
+			isa = PBXGroup;
+			children = (
+				39A1EC9B2AFDF01D00531D71 /* KHUthon-App */,
+				39A1EC9A2AFDF01D00531D71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39A1EC9A2AFDF01D00531D71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39A1EC992AFDF01D00531D71 /* KHUthon-App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39A1EC9B2AFDF01D00531D71 /* KHUthon-App */ = {
+			isa = PBXGroup;
+			children = (
+				39A1EC9C2AFDF01D00531D71 /* AppDelegate.swift */,
+				39A1EC9E2AFDF01D00531D71 /* SceneDelegate.swift */,
+				39A1ECA02AFDF01D00531D71 /* MainViewController.swift */,
+				39849A472AFE6D7200016A94 /* PopUpViewController.swift */,
+				3974377D2AFEEB3F001C4D92 /* SampleError.swift */,
+				39849A4D2AFEA7C200016A94 /* NextViewController.swift */,
+				39849A4F2AFEB6AC00016A94 /* HTMLViewController.swift */,
+				3974377B2AFED76F001C4D92 /* SendHTMLViewController.swift */,
+				39849A4B2AFE821000016A94 /* LinkCardView.swift */,
+				39849A452AFE698F00016A94 /* UIView+Extension.swift */,
+				397437792AFECD07001C4D92 /* UIStackView+Extension.swift */,
+				39A1ECA52AFDF01E00531D71 /* Assets.xcassets */,
+				39A1ECA72AFDF01E00531D71 /* LaunchScreen.storyboard */,
+				39A1ECAA2AFDF01E00531D71 /* Info.plist */,
+				39849A532AFEBB4C00016A94 /* test.html */,
+			);
+			path = "KHUthon-App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39A1EC982AFDF01D00531D71 /* KHUthon-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39A1ECAD2AFDF01E00531D71 /* Build configuration list for PBXNativeTarget "KHUthon-App" */;
+			buildPhases = (
+				39A1EC952AFDF01D00531D71 /* Sources */,
+				39A1EC962AFDF01D00531D71 /* Frameworks */,
+				39A1EC972AFDF01D00531D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KHUthon-App";
+			packageProductDependencies = (
+				39A1ECB12AFDF36B00531D71 /* Then */,
+				39A1ECB42AFDF37C00531D71 /* SnapKit */,
+			);
+			productName = "KHUthon-App";
+			productReference = 39A1EC992AFDF01D00531D71 /* KHUthon-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39A1EC912AFDF01D00531D71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					39A1EC982AFDF01D00531D71 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 39A1EC942AFDF01D00531D71 /* Build configuration list for PBXProject "KHUthon-App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39A1EC902AFDF01D00531D71;
+			packageReferences = (
+				39A1ECB02AFDF36B00531D71 /* XCRemoteSwiftPackageReference "Then" */,
+				39A1ECB32AFDF37C00531D71 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 39A1EC9A2AFDF01D00531D71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39A1EC982AFDF01D00531D71 /* KHUthon-App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39A1EC972AFDF01D00531D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A1ECA92AFDF01E00531D71 /* LaunchScreen.storyboard in Resources */,
+				39A1ECA62AFDF01E00531D71 /* Assets.xcassets in Resources */,
+				39849A542AFEBB4C00016A94 /* test.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39A1EC952AFDF01D00531D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39849A482AFE6D7200016A94 /* PopUpViewController.swift in Sources */,
+				39849A4E2AFEA7C200016A94 /* NextViewController.swift in Sources */,
+				39A1ECA12AFDF01D00531D71 /* MainViewController.swift in Sources */,
+				3974377C2AFED76F001C4D92 /* SendHTMLViewController.swift in Sources */,
+				39849A4C2AFE821000016A94 /* LinkCardView.swift in Sources */,
+				39A1EC9D2AFDF01D00531D71 /* AppDelegate.swift in Sources */,
+				3974377E2AFEEB3F001C4D92 /* SampleError.swift in Sources */,
+				3974377A2AFECD07001C4D92 /* UIStackView+Extension.swift in Sources */,
+				39849A462AFE698F00016A94 /* UIView+Extension.swift in Sources */,
+				39A1EC9F2AFDF01D00531D71 /* SceneDelegate.swift in Sources */,
+				39849A502AFEB6AC00016A94 /* HTMLViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39A1ECA72AFDF01E00531D71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39A1ECA82AFDF01E00531D71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39A1ECAB2AFDF01E00531D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39A1ECAC2AFDF01E00531D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39A1ECAE2AFDF01E00531D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF6B89ULG6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KHUthon-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "minjae.KHUthon-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39A1ECAF2AFDF01E00531D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF6B89ULG6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KHUthon-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "minjae.KHUthon-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39A1EC942AFDF01D00531D71 /* Build configuration list for PBXProject "KHUthon-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A1ECAB2AFDF01E00531D71 /* Debug */,
+				39A1ECAC2AFDF01E00531D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39A1ECAD2AFDF01E00531D71 /* Build configuration list for PBXNativeTarget "KHUthon-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A1ECAE2AFDF01E00531D71 /* Debug */,
+				39A1ECAF2AFDF01E00531D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		39A1ECB02AFDF36B00531D71 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		39A1ECB32AFDF37C00531D71 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		39A1ECB12AFDF36B00531D71 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39A1ECB02AFDF36B00531D71 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		39A1ECB42AFDF37C00531D71 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39A1ECB32AFDF37C00531D71 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 39A1EC912AFDF01D00531D71 /* Project object */;
+}
