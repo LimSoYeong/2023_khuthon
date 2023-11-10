@@ -13,7 +13,7 @@ def get_df(file_path):
     return df
 
 def stopwords():
-    path = "./stopword.txt"
+    path = "./data/stopword.txt"
     stopwords_df = get_df(path)
     nltk.download('punkt')
     nltk.download('stopwords')
@@ -86,15 +86,11 @@ def get_weight(df, result):
     weight_df = pd.DataFrame(weight_dict)
     return weight_df
 
-def main():
-    file_path = "./urls.csv"
+def update_weight() :
+    file_path = "./data/urls.csv"
     df = get_df(file_path)
     stop_words = stopwords()
     result = preprocess(df, stop_words)
-    print(len(result))
     weight_df = get_weight(df, result)
-    weight_df.to_csv("weight_df.csv", index=False)
+    weight_df.to_csv("./data/weight.csv", index=False)
     
-if __name__ == "__main__":
-    main()
-
