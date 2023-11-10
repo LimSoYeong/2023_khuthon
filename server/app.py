@@ -1,13 +1,25 @@
-import streamlit as st
-from PyPDF2 import PdfReader
+from flask import Flask, request, render_template, jsonify
+from utils.crawler import *
+from utils.graph import *
+from utils.utils import *
 
-file = st.file_uploader('파일 선택(.pdf)', type = ['pdf'])
+app = Flask(__name__)
 
-if file is not None :
-    pdfreader = PdfReader(file)
-    count = len(pdfreader.pages)
-    text = ''
-    for i in range(count) :
-        page = pdfreader.pages[i]
-        text = text + page.extract_text()
-    st.write(text)
+@app.route('/')
+def index():
+    make_graph(22)
+    return render_template('graph.html')
+
+@app.route('/send_url', methods=['POST'])
+def send_url():
+    data = request.get_json()
+    current_url = data.get('url')
+    
+    # 터미널에 데이터 출력
+    print(f'Received URL: {current_url}')  
+
+    return jsonify(message=f'{current_url}')
+
+
+if __name__ == '__main__':
+    app.run('0.0.0.0',5000,debug=True)
